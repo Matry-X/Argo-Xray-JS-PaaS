@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "matry-x-argo-xray-j-30"
-          entrypoint: "index.js"
+          entrypoint: "node index.js"
           root: ""
           
           
